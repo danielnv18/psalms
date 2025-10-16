@@ -6,6 +6,15 @@
                 "/Users/danielnv18/dev/psalms/artisan",
                 "boost:mcp"
             ]
+        },
+        "herd": {
+            "command": "/Users/danielnv18/Library/Application Support/Herd/bin/php84",
+            "args": [
+                "/Applications/Herd.app/Contents/Resources/herd-mcp.phar"
+            ],
+            "env": {
+                "SITE_PATH": "/Users/danielnv18/dev/psalms"
+            }
         }
     }
 }
